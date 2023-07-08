@@ -17,19 +17,29 @@ export const Conteudo = styled.main`
 `
 
 export const SobreMim = styled.section`
+align-items: center;
   display: flex;
   flex-direction: column;
   gap: 1.7rem;
   margin: 3rem 0;
 
   img {
+    border-radius: 1rem;
+    height: 14rem;
     width: 100%;
-    height: 12.5rem;
   }
 
   p {
     font-size: 1.2rem;
     text-align: justify;
+  }
+
+  @media (min-width: 1279px) {
+
+    img {
+      height: 18rem;
+      width: 25%;
+    }
   }
 `
 
@@ -42,7 +52,7 @@ export const Projetos = styled.section`
 
   ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 2rem;
 
     li {
@@ -76,8 +86,25 @@ export const Projetos = styled.section`
           &:hover {
             color: #E1E5EE;
             transition: all 1s;
-            font-size: 4rem;
+            font-size: 3rem;
           }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1279px) {
+    margin-top: 6rem;
+
+    ul {
+      flex-direction: row;
+      margin-top: 5rem;
+
+      li {
+        align-items: center;
+
+        img {
+          width: 50%;
         }
       }
     }
@@ -110,15 +137,24 @@ export const Habilidades = styled.section`
         width: 1.87rem;
 
         &:hover {
-          height: 5rem;
-          transition: all 2s;
-          width: 5rem;
+          height: 4rem;
+          transition: all 1s;
+          width: 4rem;
         }
       }
 
       h3 {
         font-size: 1rem;
       }
+    }
+  }
+
+  @media (min-width: 1279px) {
+    margin: 10rem 30rem 7rem 30rem;
+
+    ul {
+      margin-top: 2rem;
+      gap: 4rem;
     }
   }
 `

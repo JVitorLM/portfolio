@@ -4,6 +4,7 @@ import { BiLogoCss3, BiLogoJavascript, BiLogoTypescript, BiLink } from 'react-ic
 import { DiSass } from 'react-icons/di';
 import { GrReactjs } from 'react-icons/gr';
 import Preto from '../../assets/img/preto.png';
+import FotoPerfil from '../../assets/img/foto-perfil.png';
 
 export default function Main() {
 
@@ -11,7 +12,7 @@ export default function Main() {
     <Conteudo>
       <SobreMim id="sobremim">
         <h2>Sobre Mim</h2>
-        <img src="" alt="" />
+        <img src={FotoPerfil} alt="Foto de perfil" />
         <p>Meu nome é João Vitor, tenho 19 anos e estou no mundo da programação tem 9 meses.</p>
       </SobreMim>
 
@@ -20,6 +21,18 @@ export default function Main() {
         <ul>
           <li>
             <h3>Portfólio</h3>
+            <img src={Preto} alt="" />
+            <div>
+              <a href="#">
+                <AiFillGithub />
+              </a>
+              <a href="#">
+                <BiLink />
+              </a>
+            </div>
+          </li>
+          <li>
+            <h3>???</h3>
             <img src={Preto} alt="" />
             <div>
               <a href="#">

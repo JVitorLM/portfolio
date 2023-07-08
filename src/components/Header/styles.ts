@@ -1,5 +1,51 @@
 import styled from "styled-components";
 
+export const Menu = styled.div`
+  display: none;
+
+  @media (min-width: 1279px) {
+    display: flex;
+    height: 100%;
+    width: 100%;
+
+    nav {
+      align-items: center;
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+
+      ul {
+        align-items: center;
+        display: flex;
+        gap: 3rem;
+        justify-content: center;
+
+        li {
+          cursor: pointer;
+          list-style: none;
+          position: relative;
+
+          &::after {
+            background-color: #E1E5EE;
+            bottom: -5px;
+            content: "";
+            height: 4px;
+            left: 0;
+            position: absolute;
+            transition: all 1s ease-in-out;
+            width: 0%;
+          }
+
+          &:hover::after {
+            transition: all 1s;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+`
+
 export const Cabecalho = styled.header`
   height: 4.37rem;
   position: fixed;
@@ -18,11 +64,14 @@ export const BotaoMenu = styled.div`
   width: 100%;
   
   svg {
-    color: #2A324B;
+    color: #E1E5EE;
     height: 2.18rem;
     width: 2.18rem;
   }
   
+  @media (min-width: 1279px) {
+    display: none;
+  }
 `
 
 export const MenuLateral = styled.div`
@@ -65,6 +114,10 @@ export const MenuLateral = styled.div`
         }
       }
     }
+  }
+
+  @media (min-width: 1279px) {
+    display: none;
   }
  
 `
