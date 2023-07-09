@@ -95,7 +95,7 @@ export const SobreMim = styled.section`
 `
 
 export const Projetos = styled.section`
-  margin: 3rem 0;
+  margin: 5rem 0;
 
   h2 {
     margin-bottom: 2rem;
