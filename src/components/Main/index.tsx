@@ -5,6 +5,7 @@ import { DiSass } from 'react-icons/di';
 import { GrReactjs } from 'react-icons/gr';
 import Preto from '../../assets/img/preto.png';
 import FotoPerfil from '../../assets/img/foto-perfil.png';
+import PortfolioImagem from '../../assets/img/portfolio-imagem.png';
 
 export default function Main() {
 
@@ -23,12 +24,12 @@ export default function Main() {
         <ul>
           <li>
             <h3>Portfólio</h3>
-            <img src={Preto} alt="" />
+            <img src={PortfolioImagem} alt="" />
             <div>
-              <a href="#" target="_blank">
+              <a href="https://github.com/JVitorLM/portfolio" target="_blank">
                 <AiFillGithub />
               </a>
-              <a href="#" target="_blank">
+              <a href="https://portfolio-77shcffss-jvitorlm.vercel.app/?vercelToolbarCode=oYT_HmQf72gdGu8" target="_blank">
                 <BiLink />
               </a>
             </div>
