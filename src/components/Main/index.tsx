@@ -29,7 +29,7 @@ export default function Main() {
               <a href="https://github.com/JVitorLM/portfolio" target="_blank">
                 <AiFillGithub />
               </a>
-              <a href="https://portfolio-77shcffss-jvitorlm.vercel.app/?vercelToolbarCode=oYT_HmQf72gdGu8" target="_blank">
+              <a href="https://portfolio-psi-kohl-27.vercel.app/?vercelToolbarCode=H9xKn8LxtJwVkAW" target="_blank">
                 <BiLink />
               </a>
             </div>
