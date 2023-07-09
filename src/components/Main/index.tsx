@@ -15,7 +15,7 @@ export default function Main() {
         <h2>Sobre Mim</h2>
         <div>
           <img src={FotoPerfil} alt="Foto de perfil" />
-          <p>Meu nome é João Vitor, tenho 19 anos e estou no mundo da programação tem 9 meses.</p>
+          <p>Meu nome é João Vitor, tenho 19 anos, sou um programador Front-End e estou estudando programação há 9 meses.</p>
         </div>
       </SobreMim>
 
