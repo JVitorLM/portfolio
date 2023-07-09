@@ -28,7 +28,7 @@ export const SobreMim = styled.section`
   display: flex;
   flex-direction: column;
   gap: 1.7rem;
-  margin: 3rem 0;
+  margin: 5rem 0;
 
   div {
     display: flex;
@@ -189,7 +189,7 @@ export const Projetos = styled.section`
   }
 `
 export const Habilidades = styled.section`
-  margin: 3rem 0 0 0;
+  margin: 5rem 0 0 0;
   padding-bottom: 2rem;
 
   ul {
