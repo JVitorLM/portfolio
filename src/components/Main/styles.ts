@@ -6,7 +6,7 @@ export const Conteudo = styled.main`
   flex-direction: column;
   gap: 5rem;
   height: 100%;
-  padding: 6.25rem 2rem 0 2rem;
+  padding: 4rem 2rem 0 2rem;
   width: 100%;
 
   h2 {
@@ -14,31 +14,82 @@ export const Conteudo = styled.main`
     font-weight: 400;
     text-align: center;
   }
+
+  @media (min-width: 1279px) {
+
+    h2 {
+      font-size: 2rem;
+    }
+  }
 `
 
 export const SobreMim = styled.section`
-align-items: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
   gap: 1.7rem;
   margin: 3rem 0;
 
-  img {
-    border-radius: 1rem;
-    height: 14rem;
-    width: 100%;
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    img {
+      border-radius: 1rem;
+      height: 14rem;
+      width: 100%;
+    }
+
+    p {
+      font-size: 1.2rem;
+      text-align: justify;
+    }
   }
 
-  p {
-    font-size: 1.2rem;
-    text-align: justify;
+  @media (min-width: 481px) {
+
+    div {
+      align-items: center;
+
+      img {
+        width: 70%;
+      }
+    }
+  }
+
+  @media (min-width: 769px) {
+
+    div {
+      img {
+        width: 45%;
+      }
+
+      p {
+        width: 70%;
+      }
+    }
   }
 
   @media (min-width: 1279px) {
+    gap: 5rem;
 
-    img {
-      height: 18rem;
-      width: 25%;
+    div {
+      align-items: start;
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      justify-content: center;
+
+      img {
+        height: 18rem;
+        width: 30%;
+      }
+
+      p {
+        text-align: justify;
+        width: 40%;
+      }
     }
   }
 `
@@ -93,6 +144,34 @@ export const Projetos = styled.section`
     }
   }
 
+  @media (min-width: 481px) {
+
+    ul {
+
+      li {
+        align-items: center;
+
+        img {
+          width: 70%;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 769px) {
+
+    ul {
+
+      li {
+
+        img {
+          width: 50%;
+
+        }
+      }
+    }
+  }
+
   @media (min-width: 1279px) {
     margin-top: 6rem;
 
@@ -101,7 +180,6 @@ export const Projetos = styled.section`
       margin-top: 5rem;
 
       li {
-        align-items: center;
 
         img {
           width: 50%;
@@ -150,7 +228,7 @@ export const Habilidades = styled.section`
   }
 
   @media (min-width: 1279px) {
-    margin: 10rem 30rem 7rem 30rem;
+    margin: 12rem 20rem 3rem 20rem;
 
     ul {
       margin-top: 2rem;

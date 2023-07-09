@@ -116,6 +116,20 @@ export const MenuLateral = styled.div`
     }
   }
 
+  @media (min-width: 481px) {
+
+    nav {
+      width: 30vw;
+    }
+  }
+
+  @media (min-width: 769px) {
+
+    nav {
+      width: 20vw;
+    }
+  }
+
   @media (min-width: 1279px) {
     display: none;
   }

@@ -12,8 +12,10 @@ export default function Main() {
     <Conteudo>
       <SobreMim id="sobremim">
         <h2>Sobre Mim</h2>
-        <img src={FotoPerfil} alt="Foto de perfil" />
-        <p>Meu nome é João Vitor, tenho 19 anos e estou no mundo da programação tem 9 meses.</p>
+        <div>
+          <img src={FotoPerfil} alt="Foto de perfil" />
+          <p>Meu nome é João Vitor, tenho 19 anos e estou no mundo da programação tem 9 meses.</p>
+        </div>
       </SobreMim>
 
       <Projetos id="projetos">
@@ -23,10 +25,10 @@ export default function Main() {
             <h3>Portfólio</h3>
             <img src={Preto} alt="" />
             <div>
-              <a href="#">
+              <a href="#" target="_blank">
                 <AiFillGithub />
               </a>
-              <a href="#">
+              <a href="#" target="_blank">
                 <BiLink />
               </a>
             </div>
@@ -35,10 +37,10 @@ export default function Main() {
             <h3>???</h3>
             <img src={Preto} alt="" />
             <div>
-              <a href="#">
+              <a href="#" target="_blank">
                 <AiFillGithub />
               </a>
-              <a href="#">
+              <a href="#" target="_blank">
                 <BiLink />
               </a>
             </div>
