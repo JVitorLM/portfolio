@@ -104,7 +104,7 @@ export const Projetos = styled.section`
   ul {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 4rem;
 
     li {
       display: flex;
@@ -189,7 +189,7 @@ export const Projetos = styled.section`
   }
 `
 export const Habilidades = styled.section`
-  margin: 5rem 0 0 0;
+  margin: 10rem 0 0 0;
   padding-bottom: 2rem;
 
   ul {
