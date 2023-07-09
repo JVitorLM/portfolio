@@ -189,7 +189,7 @@ export const Projetos = styled.section`
   }
 `
 export const Habilidades = styled.section`
-  margin: 10rem 0 0 0;
+  margin: 8rem 0 3rem 0;
   padding-bottom: 2rem;
 
   ul {
