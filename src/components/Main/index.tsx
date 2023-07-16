@@ -26,10 +26,10 @@ export default function Main() {
             <h3>Portfólio</h3>
             <img src={PortfolioImagem} alt="" />
             <div>
-              <a href="https://github.com/JVitorLM/portfolio" target="_blank">
+              <a href="https://github.com/JVitorLM/portfolio" target="_blank" rel="noreferrer">
                 <AiFillGithub />
               </a>
-              <a href="https://portfolio-psi-kohl-27.vercel.app/?vercelToolbarCode=H9xKn8LxtJwVkAW" target="_blank">
+              <a href="https://portfolio-nu-woad-79.vercel.app/?vercelToolbarCode=2L4CTyf5UY0l4zo" target="_blank" rel="noreferrer">
                 <BiLink />
               </a>
             </div>
@@ -38,10 +38,10 @@ export default function Main() {
             <h3>???</h3>
             <img src={Preto} alt="" />
             <div>
-              <a href="#" target="_blank">
+              <a href="#" target="_blank" rel="noreferrer"> 
                 <AiFillGithub />
               </a>
-              <a href="#" target="_blank">
+              <a href="#" target="_blank" rel="noreferrer">
                 <BiLink />
               </a>
             </div>
